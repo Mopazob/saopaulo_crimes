@@ -1,4 +1,4 @@
-# IBM Proffesional Data Science Certificate Final Project: Sao Paulo Crimes
+# IBM Professional Data Science Certificate Final Project: Sao Paulo Crimes
 Repo for part2 of capstone project from IBM Coursera Data Science Proffesional Certificate.
 
 # Introduction: Business Problem
