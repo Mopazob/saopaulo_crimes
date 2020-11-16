@@ -5,7 +5,7 @@ Repo for part2 of capstone project from IBM Coursera Data Science Proffesional C
 The focus of this project is to find a location for opening a safe comercial store in the city of Sao Paulo, Brazil. The report aims to different stakeholders interested in opening any business type. The first step will be to chose a safe borough, analysing the crimes and listing the amount of it committed per borough in Sao Paulo, where grocery stores are not amongst the most commom venues.
 
 # About the data
-We have the next tasks to do: Find the safest borough based on crime statistics in Saop Paulo, find the most common venues for stores abd choose the right neighbourhood within the borough for a future safe store. I will be using the geographical coordinates of Sao Paulo, obtained from Kaggle, to plot the different neighbourhood, and finally cluster our neighborhoods and present our findings. The next steps and the data i will be using:
+We have the next tasks to do: Find the safest borough based on crime statistics in Saop Paulo, find the most common venues for stores and choose the right neighbourhood within the borough for a future safe store. I will be using the geographical coordinates of Sao Paulo, obtained from Kaggle, to plot the different neighbourhood, and finally cluster our neighborhoods and present our findings. The next steps and the data i will be using:
 
 1. Data set from Kaggle containing the Sao Paulo crimes from 2010 to 2018. On this dataset, we have an data about crime incidents on Sao Paulo which specifies what has happened in the victim's view, as well as field indicating what objects were lost. Plus we have the location cords, so we can plot it.
 
