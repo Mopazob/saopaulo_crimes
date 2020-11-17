@@ -47,8 +47,10 @@ As I mentioned the objective of the problem was to help stakeholders to identify
 
 This has been achieved by first making use of Sao Paulo crime data to identify a safe borough with variety of neighborhoods for any type of business. After selecting the borough it was imperative to choose the right neighborhood where the comercial stores were not among venues in a close proximity to each other. We made this by grouping the neighborhoods into clusters to assist the stakeholders by providing them with relevant data about venues and safety of a given neighborhood.
 
+Its clearly to see that venues like Bakery, Pizza Place and Gyms are the most crowded venues to go. This show us that some business of this three types will work in some of this neighborhoods. 
+
 # Conclusion
 
-We used the crime data to take a look of crimes in all neighborhoods of Sao Paulo, Brasil and later categorized them into different boroughs, this helped us grouping the neighborhoods into boroughs and choose the safest borough first. We achieve this picking the two safest boroughs in Sao Paulo and then checking the most common venues for both. Finally we use K-means to cluster this two boroughs and this way we can take a look for choosing the best neighborhood for any type of comercial business
+We used the crime data to take a look of crimes in all neighborhoods of Sao Paulo, Brasil and later categorized them into different boroughs, this helped us grouping the neighborhoods into boroughs and choose the safest borough first. We achieve this picking the two safest boroughs in Sao Paulo and then checking the most common venues for both. Finally we use K-means to cluster this two boroughs and this way we can take a look for choosing the best neighborhood for any type of comercial business.
 
 Once we confirmed the borough the number of neighborhoods for consideration also comes down, we further shortlist the neighborhoods based on the common venues, to choose a neighborhood which best suits the business problem.
