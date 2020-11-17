@@ -23,5 +23,6 @@ We have the next tasks to do: Find the safest borough based on crime statistics 
 
 # Analysis
 
-1. First we visualise graphically the quantity of crimes among the Boroughs in Sao Paulo and then pick the safest ones. In this case we can see that NorthWest and East2 boroughs were the safest.
+1. First we can visualise the quantity of crimes among the Boroughs in Sao Paulo and then pick the safest ones. In this case we can see that NorthWest and East2 boroughs were the safest.
 
+![](hhttps://github.com/Mopazob/saopaulo_crimes/blob/master/Saopaulo.boroughs.PNG)
