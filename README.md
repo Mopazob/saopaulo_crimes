@@ -15,3 +15,8 @@ We have the next tasks to do: Find the safest borough based on crime statistics 
 
 4. Re-do our dataset of the neighborhoods, and the most common venues and the respective neighbourhood along with property cords: Using Four Square API to explore the neighbourhood venues and to apply cluster algorithm to the neighbourhoods and present the findings by plotting it on maps using folium.
 
+# Methodology
+
+- Exploratoy Data Analysis : Visualise the crime repots in different Sao Paulo boroughs to idenity the safest borough and check the neighborhoods of that borough. We will Use the resulting data and find 10 most common venues in each neighborhood.
+
+- Modeling : We will choose the right neighborhood within a borough. Next we will be clustering similar neighborhoods using K-means clustering which is a form of unsupervised machine learning algorithm that clusters data based on predefined cluster size. We will use K-Means clustering to address this problem so as to group data based on existing venues which will help in the decision making process.
