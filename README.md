@@ -20,3 +20,8 @@ We have the next tasks to do: Find the safest borough based on crime statistics 
 - Exploratoy Data Analysis : Visualise the crime repots in different Sao Paulo boroughs to idenity the safest borough and check the neighborhoods of that borough. We will Use the resulting data and find 10 most common venues in each neighborhood.
 
 - Modeling : We will choose the right neighborhood within a borough. Next we will be clustering similar neighborhoods using K-means clustering which is a form of unsupervised machine learning algorithm that clusters data based on predefined cluster size. We will use K-Means clustering to address this problem so as to group data based on existing venues which will help in the decision making process.
+
+# Analysis
+
+1. First we visualise graphically the quantity of crimes among the Boroughs in Sao Paulo and then pick the safest ones. In this case we can see that NorthWest and East2 boroughs were the safest.
+
