@@ -21,8 +21,34 @@ We have the next tasks to do: Find the safest borough based on crime statistics 
 
 - Modeling : We will choose the right neighborhood within a borough. Next we will be clustering similar neighborhoods using K-means clustering which is a form of unsupervised machine learning algorithm that clusters data based on predefined cluster size. We will use K-Means clustering to address this problem so as to group data based on existing venues which will help in the decision making process.
 
-# Analysis
-
 1. First we can visualise the quantity of crimes among the Boroughs in Sao Paulo and then pick the safest ones. In this case we can see that NorthWest and East2 boroughs were the safest.
 
 ![](https://github.com/Mopazob/saopaulo_crimes/blob/master/Saopaulo.boroughs.PNG)
+
+2. Then I used **folium** library to visualize geographics details of this two boroughs in Sao Paulo. We clearly can see the North West and the East 2 borough in Sao Paulo.  I used latitude and longitude values to get the visual.
+
+![](https://github.com/Mopazob/saopaulo_crimes/blob/master/mapa1.PNG)
+
+3. Utilized **Foursquare API** to explore the boroughs and segment them. This helps to fetch top 10 venues around each neighborhood. Here is a head of the list Venues name, category, latitude and longitude informations from Forsquare API. 
+
+![](https://github.com/Mopazob/saopaulo_crimes/blob/master/venues.PNG)
+
+4. Foursquare returned 184 unique categories, then I created a table which shows list of top 10 venue category for each borough in below table.
+
+![](https://github.com/Mopazob/saopaulo_crimes/blob/master/commonvenues.PNG)
+
+# Results
+
+- I used unsupervised learning K-means algorithm to cluster the boroughs. K-Means algorithm is one of the most common cluster method of unsupervised learning. I used this clusters and folium to make a map wich shows us the two boroughs already clustered.
+
+![](https://github.com/Mopazob/saopaulo_crimes/blob/master/mapa2.PNG)
+
+As I mentioned the objective of the problem was to help stakeholders to identify the safest borough in Sao Paulo, and an good neighborhood within the borough to set up a commercial store.
+
+This has been achieved by first making use of Sao Paulo crime data to identify a safe borough with variety of neighborhoods for any type of business. After selecting the borough it was imperative to choose the right neighborhood where the comercial stores were not among venues in a close proximity to each other. We made this by grouping the neighborhoods into clusters to assist the stakeholders by providing them with relevant data about venues and safety of a given neighborhood.
+
+# Conclusion
+
+We used the crime data to take a look of crimes in all neighborhoods of Sao Paulo, Brasil and later categorized them into different boroughs, this helped us grouping the neighborhoods into boroughs and choose the safest borough first. We achieve this picking the two safest boroughs in Sao Paulo and then checking the most common venues for both. Finally we use K-means to cluster this two boroughs and this way we can take a look for choosing the best neighborhood for any type of comercial business
+
+Once we confirmed the borough the number of neighborhoods for consideration also comes down, we further shortlist the neighborhoods based on the common venues, to choose a neighborhood which best suits the business problem.
