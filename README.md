@@ -1,5 +1,5 @@
 # IBM Professional Data Science Certificate Final Project: Sao Paulo Crimes Overview
-* Final project for IBM Coursera Data Science Proffesional Certificate.
+* Final project for IBM Coursera Data Science Professional Certificate.
 * Founded the two safest locations for a comercial store in Sao Paulo from a crimes database. This boroughs are NorthWest and East 2.
 * This project aims to manage differents tools about data world and does not have a comercial focus. Theres many comercial studies that have to be done before taking the best decision for a comercial store location.
 * Data from Kaggle platform.
