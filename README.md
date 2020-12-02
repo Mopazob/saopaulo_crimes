@@ -67,7 +67,7 @@ Its clearly to see that venues like Bakery, Pizza Place and Gyms are the most cr
 
 # Conclusions
 
-* Checking the objects stolen in Sao Paulo phones are the most common next we can see the "other" category which we can conclude that is relationed with cars stolen if we check the WordCloud made.
+* Checking the objects stolen in Sao Paulo phones are the most common one. Next we can see the "other" category which we can conclude that is relationed with cars stolen if we check the WordCloud made.
 * Males are the most common victims of assaults in Sao Paulo with 60% of the cases.
 * The quantity of crimes commited in Sao Paulo increase aproximatly three times between 5 pm and 11 pm.
 * The most common type of assault are the type "2" with 5800 assaults followed by the type "1" with 2980 samples.
