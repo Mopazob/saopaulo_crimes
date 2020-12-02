@@ -65,7 +65,14 @@ This has been achieved by first making use of Sao Paulo crime data to identify a
 
 Its clearly to see that venues like Bakery, Pizza Place and Gyms are the most crowded venues to go. This show us that some business of this three types will work in some of this neighborhoods. 
 
-# Conclusion
+# Conclusions
+
+* Checking the objects stolen in Sao Paulo phones are the most common next we can see the "other" category which we can conclude that is relationed with cars stolen if we check the WordCloud made.
+* Males are the most common victims of assaults in Sao Paulo with 60% of the cases.
+* The quantity of crimes commited in Sao Paulo increase aproximatly three times between 5 pm and 11 pm.
+* The most common type of assault are the type "2" with 5800 assaults followed by the type "1" with 2980 samples.
+* Tried to figure what are this types of assaults but no pattern was shown in the WordClouds for each type. The most common word were car and phone.
+* The highest mean value of stolen objects by assult type are aproximatly 9.5k USD for assault type "9". If we check the WordCloud for  this assault type we can assume a car theft for this type. 
 
 We used the crime data to take a look of crimes in all neighborhoods of Sao Paulo, Brasil and later categorized them into different boroughs, this helped us grouping the neighborhoods into boroughs and choose the safest borough first. We achieve this picking the two safest boroughs in Sao Paulo and then checking the most common venues for both. Finally we use K-means to cluster this two boroughs and this way we can take a look for choosing the best neighborhood for any type of comercial business.
 
