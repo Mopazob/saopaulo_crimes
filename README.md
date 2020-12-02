@@ -1,7 +1,17 @@
-# IBM Professional Data Science Certificate Final Project: Sao Paulo Crimes
-Repo for part2 of capstone project from IBM Coursera Data Science Proffesional Certificate.
+# IBM Professional Data Science Certificate Final Project: Sao Paulo Crimes Overview
+* Final project for IBM Coursera Data Science Proffesional Certificate.
+* Founded the two safest locations for a comercial store in Sao Paulo from a crimes database. This boroughs are NorthWest and East 2.
+* This project aims to manage differents tools about data world and does not have a comercial focus. Theres many comercial studies that have to be done before taking the best decision for a comercial store location.
+* Data from Kaggle platform.
+* Applied unsupervised machine learning K-means algorithm clustering model for two boroughs of Sao Paulo.
+* Used folium package and FourSquare API to explore this boroughs and segment them.
 
-# Introduction: Business Problem
+# Code and libraries used
+* **Data from:** https://www.kaggle.com/danlessa/geospatial-sao-paulo-crime-database
+* **Python version**: 3.8
+* **Libraries**: pandas, numpy, matplotlib, seaborn, folium
+
+# Business Problem
 The focus of this project is to find a location for opening a safe comercial store in the city of Sao Paulo, Brazil. The report aims to different stakeholders interested in opening any business type. The first step will be to chose a safe borough, analysing the crimes and listing the amount of it committed per borough in Sao Paulo, where grocery stores are not amongst the most commom venues.
 
 # About the data
