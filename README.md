@@ -55,7 +55,7 @@ This will be our data and the route:
 
 # Results
 
-- I used unsupervised learning K-means algorithm to cluster the boroughs. K-Means algorithm is one of the most common cluster method of unsupervised learning. I used this clusters and folium to make a map wich shows us the two boroughs already clustered.
+- Using unsupervised learning K-means algorithm to cluster the boroughs. K-Means algorithm is one of the most common cluster method of unsupervised learning. I used this clusters and folium to make a map wich shows us the two boroughs already clustered.
 
 ![](https://github.com/Mopazob/saopaulo_crimes/blob/master/mapa2.PNG)
 
@@ -67,6 +67,7 @@ Its clearly to see that venues like Bakery, Pizza Place and Gyms are the most cr
 
 # Conclusions
 
+* Looking the quantity of crimes committed in Sao Paulo wen can see that North West and East 2 are the last in this count so we can assume that this two are the safest.
 * Checking the objects stolen in Sao Paulo phones are the most common one. Next we can see the "other" category which we can conclude that is relationed with cars stolen if we check the WordCloud made.
 * Males are the most common victims of assaults in Sao Paulo with 60% of the cases.
 * The quantity of crimes commited in Sao Paulo increase aproximatly three times between 5 pm and 11 pm.
@@ -74,6 +75,6 @@ Its clearly to see that venues like Bakery, Pizza Place and Gyms are the most cr
 * Tried to figure what are this types of assaults but no pattern was shown in the WordClouds for the description and title of each type. The most common word were car and phone.
 * The highest mean value of stolen objects by assult type are aproximatly 9.5k USD for assault type "9". If we check the WordCloud for  this assault type we can assume a car theft for this type. 
 
-We used the crime data to take a look of crimes in all neighborhoods of Sao Paulo, Brasil and later categorized them into different boroughs, this helped us grouping the neighborhoods into boroughs and choose the safest borough first. We achieve this picking the two safest boroughs in Sao Paulo and then checking the most common venues for both. Finally we use K-means to cluster this two boroughs and this way we can take a look for choosing the best neighborhood for any type of comercial business.
+We used the crime data to take a look of all neighborhoods of Sao Paulo and later categorized them into different boroughs, this helped us grouping the neighborhoods into boroughs and choose the safest boroughs first. We achieve this picking the two safest boroughs in Sao Paulo and then checking the most common venues for both. Finally we use K-means to cluster this two boroughs and this way we can take a look for choosing the best neighborhood for any type of comercial business.
 
 Once we confirmed the borough the number of neighborhoods for consideration also comes down, we further shortlist the neighborhoods based on the common venues, to choose a neighborhood which best suits the business problem.
