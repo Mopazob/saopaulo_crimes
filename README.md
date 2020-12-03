@@ -1,7 +1,7 @@
 # IBM Professional Data Science Certificate Final Project: Sao Paulo Crimes Overview
 * Final project for IBM Coursera Data Science Professional Certificate.
 * Found two safest locations for a commercial store in Sao Paulo starting from a crimes database. These boroughs are North West and East 2.
-* This project aims to manage differents tools about data world and does not have a commercial focus. Theres many commercial studies that have to be done before taking the best decision for a commercial store location.
+* This project aims to manage differents tools about data world and does not have a commercial focus. There're many commercial studies that have to be done before taking the best decision for a commercial store location.
 * Data from Kaggle platform.
 * Applied unsupervised machine learning K-means algorithm clustering model for two boroughs of Sao Paulo.
 * Used folium package and FourSquare API to explore these boroughs and segment them.
@@ -85,7 +85,7 @@ Once we confirmed the borough the number of neighborhoods for consideration also
 * If our new commercial store type are not in the top ten venues for this cluster, might be a good idea to open this venue in North West borough.
 * We can see an significant ammount of gym venues in all these neighborhoods. This explain why Brazil is considerated a country which promotes a healthy lifestyle.
 
-Theres a lot of other conclusions that we can assume of this little proyect but this were which made me sense. Depends of what type of commercial store we want to open in Sao Paulo the conclusions might be different. I repeat this is a proyect which aims to manage variety of data tools and does not have a commercial focus.
+There're a lot of other conclusions that we can assume of this little proyect but this were which made me sense. Depends of what type of commercial store we want to open in Sao Paulo the conclusions might be different. I repeat this is a proyect which aims to manage variety of data tools and does not have a commercial focus.
 
 Thank you for reading.
 
