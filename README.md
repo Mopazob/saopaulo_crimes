@@ -79,7 +79,7 @@ We used the crime data to take a look of all neighborhoods of Sao Paulo and late
 
 Once we confirmed the borough the number of neighborhoods for consideration also comes down, we further shortlist the neighborhoods based on the common venues, to choose a neighborhood which best suits the business problem.
 
-* If we check the top venues by neighborhoods we can see for Brasilandia neighborhood Bakeries are the top here with an 8% of venues. If our comercial sotre its a Bakery this might be not a good place because there are too many of this type.
+* If we check the top venues by neighborhoods we can see for Brasilandia neighborhood Bakeries are the top here with an 8% of venues. If our comercial store its a Bakery this might be not a good place because there are too many of this type.
 * In almost all neighborhoods in this two boroughs bakeries are in the top 5 venues. Maybe neither of this two boroughs are good for a new bakery comercial store.
 * Looking into the clustering model we can see that in North West borough all of the neighborhoods are in the first cluster. This means that all of this neighborhoods have a similar quantity of venues percentage.
 * If our new comercial store type are not in the top ten venues for this cluster, might be a good idea to open this venue in North West borough.
