@@ -12,7 +12,7 @@
 * **Libraries**: pandas, numpy, matplotlib, seaborn, folium
 
 # Business Problem
-The focus of this project is to find a location for opening a safe commercial store in the city of Sao Paulo, Brazil. The report aims to different stakeholders interested in opening any business type. The first step will be clean the data for explore this next. After we have to to chose a safe borough, analysing the crimes and listing the amount of it committed per borough in Sao Paulo, where grocery stores are not amongst the most commom venues.
+The focus of this project is to find a location for opening a safe commercial store in the city of Sao Paulo, Brazil. The report aims to different stakeholders interested in opening any business type. The first step will be clean the data for explore this next. After we have to to choose a safe borough, analysing the crimes and listing the amount of it committed per borough in Sao Paulo, where grocery stores are not amongst the most commom venues.
 
 # About the data
 We have the next tasks to do: Check if the data is clean, explore the data to understand the variables used, then find the safest borough based on crime statistics in Sao Paulo, find the most common venues for stores and choose the right neighbourhood within the borough for a future safe store. I will be using the geographical coordinates of Sao Paulo obtained from geocoder service, to plot the different neighborhoods, and finally cluster our neighborhoods and present our findings. 
