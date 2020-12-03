@@ -87,5 +87,5 @@ Once we confirmed the borough the number of neighborhoods for consideration also
 
 Theres a lot of other conclusions that we can assume of this little proyect but this were which made me sense. Depends of what type of comercial store we want to open in Sao Paulo the conclusions might be different. I repeat this is a proyect which aims to manage variety of data tools and does not have a comercial focus.
 
-Thank you for reading.
-Matias S. Opazo Barrientos.
+**Thank you for reading.**
+**Matias S. Opazo Barrientos.**
