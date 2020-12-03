@@ -78,3 +78,14 @@ Its clearly to see that venues like Bakery, Pizza Place and Gyms are the most cr
 We used the crime data to take a look of all neighborhoods of Sao Paulo and later categorized them into different boroughs, this helped us grouping the neighborhoods into boroughs and choose the safest boroughs first. We achieve this picking the two safest boroughs in Sao Paulo and then checking the most common venues for both. Finally we use K-means to cluster this two boroughs and this way we can take a look for choosing the best neighborhood for any type of comercial business.
 
 Once we confirmed the borough the number of neighborhoods for consideration also comes down, we further shortlist the neighborhoods based on the common venues, to choose a neighborhood which best suits the business problem.
+
+* If we check the top venues by neighborhoods we can see for Brasilandia neighborhood Bakeries are the top here with an 8% of venues. If our comercial sotre its a Bakery this might be not a good place because there are too many of this type.
+* In almost all neighborhoods in this two boroughs bakeries are in the top 5 venues. Maybe neither of this two boroughs are good for a new bakery comercial store.
+* Looking into the clustering model we can see that in North West borough all of the neighborhoods are in the first cluster. This means that all of this neighborhoods have a similar quantity of venues percentage.
+* If our new comercial store type are not in the top ten venues for this cluster, might be a good idea to open this venue in North West borough.
+* We can see an significant ammount of gym venues in all this neighborhoods. This explain why Brazil is considerated a country which promotes a healthy lifestyle.
+
+Theres a lot of other conclusions that we can assume of this little proyect but this were which made me sense. Depends of what type of comercial store we want to open in Sao Paulo the conclusions might be different. I repeat this is a proyect which aims to manage variety of data tools and does not have a comercial focus.
+
+Thank you for reading.
+Matias S. Opazo Barrientos.
