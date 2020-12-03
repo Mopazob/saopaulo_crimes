@@ -1,7 +1,7 @@
 # IBM Professional Data Science Certificate Final Project: Sao Paulo Crimes Overview
 * Final project for IBM Coursera Data Science Professional Certificate.
-* Found two safest locations for a comercial store in Sao Paulo starting from a crimes database. This boroughs are North West and East 2.
-* This project aims to manage differents tools about data world and does not have a comercial focus. Theres many comercial studies that have to be done before taking the best decision for a comercial store location.
+* Found two safest locations for a commercial store in Sao Paulo starting from a crimes database. This boroughs are North West and East 2.
+* This project aims to manage differents tools about data world and does not have a commercial focus. Theres many commercial studies that have to be done before taking the best decision for a commercial store location.
 * Data from Kaggle platform.
 * Applied unsupervised machine learning K-means algorithm clustering model for two boroughs of Sao Paulo.
 * Used folium package and FourSquare API to explore this boroughs and segment them.
@@ -12,7 +12,7 @@
 * **Libraries**: pandas, numpy, matplotlib, seaborn, folium
 
 # Business Problem
-The focus of this project is to find a location for opening a safe comercial store in the city of Sao Paulo, Brazil. The report aims to different stakeholders interested in opening any business type. The first step will be clean the data for explore this next. After we have to to chose a safe borough, analysing the crimes and listing the amount of it committed per borough in Sao Paulo, where grocery stores are not amongst the most commom venues.
+The focus of this project is to find a location for opening a safe commercial store in the city of Sao Paulo, Brazil. The report aims to different stakeholders interested in opening any business type. The first step will be clean the data for explore this next. After we have to to chose a safe borough, analysing the crimes and listing the amount of it committed per borough in Sao Paulo, where grocery stores are not amongst the most commom venues.
 
 # About the data
 We have the next tasks to do: Check if the data is clean, explore the data to understand the variables used, then find the safest borough based on crime statistics in Sao Paulo, find the most common venues for stores and choose the right neighbourhood within the borough for a future safe store. I will be using the geographical coordinates of Sao Paulo obtained from geocoder service, to plot the different neighborhoods, and finally cluster our neighborhoods and present our findings. 
@@ -21,9 +21,9 @@ This will be our data and the route:
 
 1. Data set from Kaggle containing the Sao Paulo crimes from 2010 to 2018. On this dataset we have a data about crime incidents on Sao Paulo which specifies what has happened in the victim's view, as well as field indicating what objects were lost. Plus we have the location cords, so we can plot it.
 
-2. Additional information of the list of officially categorized boroughs in Sao Paulo from Wikipedia. Borough information will be used to map the existing data where each neighbourhood can be assigned with the right borough.
+2. Additional information of the list of officially categorized boroughs in Sao Paulo from Wikipedia. Borough information will be used to map the existing data where each neighborhood can be assigned with the right borough.
 
-3. Create a new dataset of the neighborhoods, crime data and the respective neighborhood cords. This data will be bring us using Geopy to find the safest borough and explore the neighbourhood by plotting it on maps using folium and perform exploratory data analysis.
+3. Create a new dataset of the neighborhoods, crime data and the respective neighborhood cords. This data will be bring us using Geopy to find the safest borough and explore the neighborhood by plotting it on maps using folium and perform exploratory data analysis.
 
 4. Re-do our dataset of the neighborhoods, and the most common venues and the respective neighbourhood along with property cords: Using Four Square API to explore the neighbourhood venues and to apply cluster algorithm to the neighbourhoods and present the findings by plotting it on maps using folium.
 
@@ -61,7 +61,7 @@ This will be our data and the route:
 
 As I mentioned the objective of the problem was to help stakeholders to identify the safest borough in Sao Paulo, and an good neighborhood within the borough to set up a commercial store.
 
-This has been achieved by first making use of Sao Paulo crime data to identify a safe borough with variety of neighborhoods for any type of business. After selecting the borough it was imperative to choose the right neighborhood where the comercial stores were not among venues in a close proximity to each other. We made this by grouping the neighborhoods into clusters to assist the stakeholders by providing them with relevant data about venues and safety of a given neighborhood.
+This has been achieved by first making use of Sao Paulo crime data to identify a safe borough with variety of neighborhoods for any type of business. After selecting the borough it was imperative to choose the right neighborhood where the commercial stores were not among venues in a close proximity to each other. We made this by grouping the neighborhoods into clusters to assist the stakeholders by providing them with relevant data about venues and safety of a given neighborhood.
 
 Its clearly to see that venues like Bakery, Pizza Place and Gyms are the most crowded venues to go. This show us that some business of this three types will work in some of this neighborhoods. 
 
@@ -75,17 +75,17 @@ Its clearly to see that venues like Bakery, Pizza Place and Gyms are the most cr
 * Tried to figure what are this types of assaults but no pattern was shown in the WordClouds for the description and title of each type. The most common word were car and phone.
 * The highest mean value of stolen objects by assult type are aproximatly 9.5k USD for assault type "9". If we check the WordCloud for  this assault type we can assume a car theft for this type. 
 
-We used the crime data to take a look of all neighborhoods of Sao Paulo and later categorized them into different boroughs, this helped us grouping the neighborhoods into boroughs and choose the safest boroughs first. We achieve this picking the two safest boroughs in Sao Paulo and then checking the most common venues for both. Finally we use K-means to cluster this two boroughs and this way we can take a look for choosing the best neighborhood for any type of comercial business.
+We used the crime data to take a look of all neighborhoods of Sao Paulo and later categorized them into different boroughs, this helped us grouping the neighborhoods into boroughs and choose the safest boroughs first. We achieve this picking the two safest boroughs in Sao Paulo and then checking the most common venues for both. Finally we use K-means to cluster this two boroughs and this way we can take a look for choosing the best neighborhood for any type of commercial business.
 
 Once we confirmed the borough the number of neighborhoods for consideration also comes down, we further shortlist the neighborhoods based on the common venues, to choose a neighborhood which best suits the business problem.
 
-* If we check the top venues by neighborhoods we can see for Brasilandia neighborhood Bakeries are the top here with an 8% of venues. If our comercial store its a Bakery this might be not a good place because there are too many of this type.
-* In almost all neighborhoods in this two boroughs bakeries are in the top 5 venues. Maybe neither of this two boroughs are good for a new bakery comercial store.
+* If we check the top venues by neighborhoods we can see for Brasilandia neighborhood Bakeries are the top here with an 8% of venues. If our commercial store its a Bakery this might be not a good place because there are too many of this type.
+* In almost all neighborhoods in this two boroughs bakeries are in the top 5 venues. Maybe neither of this two boroughs are good for a new bakery commercial store.
 * Looking into the clustering model we can see that in North West borough all of the neighborhoods are in the first cluster. This means that all of this neighborhoods have a similar quantity of venues percentage.
-* If our new comercial store type are not in the top ten venues for this cluster, might be a good idea to open this venue in North West borough.
+* If our new commercial store type are not in the top ten venues for this cluster, might be a good idea to open this venue in North West borough.
 * We can see an significant ammount of gym venues in all this neighborhoods. This explain why Brazil is considerated a country which promotes a healthy lifestyle.
 
-Theres a lot of other conclusions that we can assume of this little proyect but this were which made me sense. Depends of what type of comercial store we want to open in Sao Paulo the conclusions might be different. I repeat this is a proyect which aims to manage variety of data tools and does not have a comercial focus.
+Theres a lot of other conclusions that we can assume of this little proyect but this were which made me sense. Depends of what type of commercial store we want to open in Sao Paulo the conclusions might be different. I repeat this is a proyect which aims to manage variety of data tools and does not have a commercial focus.
 
 Thank you for reading.
 
